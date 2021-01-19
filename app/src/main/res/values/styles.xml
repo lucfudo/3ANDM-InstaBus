@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NoActionBar" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/secondary</item>
+    </style>
+
+    <style name="HomeScreen" parent="NoActionBar">
+        <item name="android:windowBackground">@color/primary</item>
+    </style>
+
+    <style name="DetailScreen" parent="NoActionBar">
+        <item name="android:windowBackground">@color/secondary</item>
+    </style>
+</resources>

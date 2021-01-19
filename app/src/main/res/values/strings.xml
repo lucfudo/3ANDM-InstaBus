@@ -1,0 +1,29 @@
+<resources>
+    <!-- Title -->
+    <string name="app_name">InstaBus</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <!-- Description -->
+    <string name="description_splash_screen_image">splash_screen_image</string>
+    <string name="description_splash_screen_signature">splash_screen_signature</string>
+    <string name="description_country_name">country_name</string>
+    <!-- Placeholder -->
+    <string name="placeholder_station_buses">station_buses</string>
+    <string name="placeholder_station_name">station_name</string>
+    <!-- Bottom Navigation Bar Items -->
+    <string name="menu_item_list">List</string>
+    <string name="menu_item_map">Map</string>
+    <string name="description_list_item_background">list_item_background</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_backToMain">button_backToMain</string>
+    <string name="search">Search</string>
+    <string name="change_name_here">Change name here</string>
+    <string name="textview">TextView</string>
+    <string name="validate">validate</string>
+</resources>

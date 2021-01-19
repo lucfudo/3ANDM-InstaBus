@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/stationsListFragment">
+
+    <fragment
+        android:id="@+id/stationsMapsFragment"
+        android:name="com.supinfo.instabus.fragments.StationsMapsFragment"
+        android:label="fragment_stations_map"
+        tools:layout="@layout/fragment_stations_maps" >
+        <action
+            android:id="@+id/action_stationsMapsFragment_to_stationsListFragment"
+            app:destination="@id/stationsListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/stationsListFragment"
+        android:name="com.supinfo.instabus.fragments.StationsListFragment"
+        android:label="fragment_stations_list"
+        tools:layout="@layout/fragment_stations_list" >
+        <action
+            android:id="@+id/action_stationsListFragment_to_stationsMapFragment"
+            app:destination="@id/stationsMapsFragment" />
+    </fragment>
+</navigation>

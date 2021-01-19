@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FAFAFA</color>
+    <color name="secondary">#FDD594</color>
+    <color name="font_color_dark">#191919</color>
+    <color name="font_color_white">#FFFFFF</color>
+</resources>

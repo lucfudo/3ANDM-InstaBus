@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/stationsDetailFragment">
+    <fragment
+        android:id="@+id/stationsDetailFragment"
+        android:name="com.supinfo.instabus.fragments.StationsDetailFragment"
+        android:label="fragment_stations_detail"
+        tools:layout="@layout/fragment_stations_detail" >
+        <action
+            android:id="@+id/action_stationsDetailFragment_to_pictureFragment"
+            app:destination="@id/pictureFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pictureFragment"
+        android:name="com.supinfo.instabus.fragments.PictureFragment"
+        android:label="fragment_picture"
+        tools:layout="@layout/fragment_picture" >
+        <action
+            android:id="@+id/action_pictureFragment_to_stationsDetailFragment"
+            app:destination="@id/stationsDetailFragment" />
+    </fragment>
+</navigation>

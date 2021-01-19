@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=F8:4F:E7:19:87:4A:B9:9D:12:FA:3B:5F:53:36:BC:56:F8:39:0C:96%3Bcom.supinfo.instabus.fragments
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.supinfo.instabus.fragments
+
+    SHA-1 certificate fingerprint:
+    F8:4F:E7:19:87:4A:B9:9D:12:FA:3B:5F:53:36:BC:56:F8:39:0C:96
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyC51erM4Gs9I_I-7xU8y4RBayF_2GfH2Wc</string>
+</resources>
